@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TextureLoader.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\CollisionManager.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathManager.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\DebugManager.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\PathFindingManager.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Board.cpp">
+      <Filter>API\NewFiles\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Node.cpp">
+      <Filter>API\NewFiles\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Turret.cpp">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Polygon.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Turret1.cpp">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Heap.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Enemy.cpp">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Enemy1.cpp">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="App\EnemiesPool.cpp">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Bullet.cpp">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\BulletPool.cpp">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Bullet1.cpp">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TurretPool.cpp">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\UserInterface.cpp">
+      <Filter>API\NewFiles\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Enemy2.cpp">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Enemy3.cpp">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="App\WaveManager.cpp">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Player.cpp">
+      <Filter>API\NewFiles\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Turret2.cpp">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Bullet2.cpp">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Bullet3.cpp">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Turret3.cpp">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TextureLoader.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathManager.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\CollisionManager.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\DebugManager.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Basics.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\PathFindingManager.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Board.h">
+      <Filter>API\NewFiles\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Node.h">
+      <Filter>API\NewFiles\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Turret.h">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Polygon.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Turret1.h">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Heap.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Enemy.h">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Enemy1.h">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="App\EnemiesPool.h">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Bullet.h">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\BulletPool.h">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Bullet1.h">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TurretPool.h">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\UserInterface.h">
+      <Filter>API\NewFiles\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Enemy2.h">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Enemy3.h">
+      <Filter>API\NewFiles\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="App\WaveManager.h">
+      <Filter>API\NewFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Player.h">
+      <Filter>API\NewFiles\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Turret2.h">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Bullet2.h">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Bullet3.h">
+      <Filter>API\NewFiles\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Turret3.h">
+      <Filter>API\NewFiles\Turrets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{3e1485bf-3449-4966-8760-976ee866544b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles">
+      <UniqueIdentifier>{5188e9bf-f8c7-4b40-af17-1310b47423e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\Managers">
+      <UniqueIdentifier>{b38b1d9d-2ecf-4557-8911-8b8e6cea2de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\Turrets">
+      <UniqueIdentifier>{0a5187a7-4ce2-463c-a505-d7d0b0f20c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\Enemies">
+      <UniqueIdentifier>{e0ce3959-2f1c-4854-9bdb-fefa2b98ff91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\Board">
+      <UniqueIdentifier>{e1636c4a-c228-4b40-bf34-0ffa33d05f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\Bullets">
+      <UniqueIdentifier>{c01c8b66-fb09-4cb6-8501-09a22c8418e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\NewFiles\UI">
+      <UniqueIdentifier>{b9ba69c9-0914-48af-a3c8-c4c66403b220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

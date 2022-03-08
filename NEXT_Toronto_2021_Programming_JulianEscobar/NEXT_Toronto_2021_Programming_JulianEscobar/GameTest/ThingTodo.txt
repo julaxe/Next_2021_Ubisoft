@@ -1,0 +1,23 @@
+Video:
+Presentation:
+        -Name
+        -College
+
+Show Game:
+        -UI
+        -Aesthetics-> Simple Polygons
+        -Mechanics: put turret -> change path of the enemies;
+                   -Combine Turrets / Select them
+                   -Play with Gold and strategy to defend your base.
+                   -Enemies get Stronger every 5 waves.
+
+        -Show all 3 enemies, all 3 Turrets
+        -What happens when dies
+
+Show Code:
+        -Pool structured.
+        -Wave Manager.
+        -Used a heap for the path manager.
+        
+
+

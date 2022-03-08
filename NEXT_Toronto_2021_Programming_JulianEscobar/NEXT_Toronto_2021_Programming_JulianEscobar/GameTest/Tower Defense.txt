@@ -1,0 +1,73 @@
+Tower Defense
+-Based on Bubble Tanks.
+-MAP: grid with nodes, it has to be exact values so the towers fits.
+    -so it will be Random, 3 block of same proportion with Random Y (between certain values)
+
+Nodes: -Position
+        -Available?.
+        -Debug Mode (Grid);
+
+Towers: Can be placed on top of nodes:
+                                    -When placed -> Node Unavailable.
+        Can be selled:
+                        -When selled -> Node Available.
+        Only when placed is active.
+        
+    Different type of Towers:
+                            -Size
+                            -Can go through (Node Available)
+                            -Cannon: -Speed
+                                    -Power
+                            -Differentiatior:
+                                            -Maybe type of bullet
+                                            -Maybe size of bullet
+                                            -Maybe special behaiviour
+                                            -Maybe laser
+                                            -Maybe anti aerial
+    Restrictions:
+        Can only be placed on nodes
+        Can't block entirely the path of the Enemies
+        Needs money to buy them.
+
+    Tower can be combined:
+                        -Select 3 towers and combine them.
+                        -A stronger tower will apear in the position of the last one selected
+                        -You get bonnus points for combine towers and also extra money (promote combining)
+                        -Before finishing combination all checks have to be done:
+                                                                                -No block path.
+                                                                                -Space on board. (edges)
+
+                                            
+
+Enemies:
+        -Go to a Point by following a path of nodes.
+        -Speed
+        -HP (how many hits they need to be destroyed)
+        
+        How many Enemies?
+        for now only 3.
+            -the simple one: normal speed normal hp.
+            -the tank one: slow speed and a lot of hp.
+            -the fast one: fast but squishy.
+
+
+Gameplay:
+        -1 Scene:  - Game Title
+                    -My Name
+                    -How to play.
+
+        -2 Scene: The Game:
+                -Starts with a timer (30 sec) that can be skipped if the person wants (press a key). You can use this time to 
+                spend your inital money
+
+                -When the timer is done, first wave show up, going to your base.
+                -The turrets will try to stop them, earning money and points when an enemy is destroyed.
+                -When enemy get to your base, they do some damage.
+                -After destroying a wave, there will be 5 sec between each wave, (so you have to be fast)
+                -Every wave is stronger than the one before.
+                -Game ends when base is destroyed.
+
+Goal:
+    -Surviving and make the more amount of points.
+    
+                            
